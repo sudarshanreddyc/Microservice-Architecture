@@ -1,4 +1,5 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Mvc;
 using Portfolio.Models;
 using Portfolio.Services;
 
@@ -6,6 +7,7 @@ namespace Portfolio.Controllers
 {
     [Route("API/Experience")]
     [ApiController]
+    //[Authorize]
     public class ExperienceController : ControllerBase
     {
         private readonly IService<Experience> _service;

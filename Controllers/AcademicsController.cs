@@ -1,4 +1,5 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Mvc;
 using Portfolio.Models;
 using Portfolio.Services;
 
@@ -6,6 +7,7 @@ namespace Portfolio.Controllers
 {
     [Route("API/Academics")]
     [ApiController]
+    //[Authorize]
     public class AcademicsController : ControllerBase
     {
         private readonly IService<Academics> _service;

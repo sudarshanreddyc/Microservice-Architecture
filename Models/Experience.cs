@@ -6,7 +6,7 @@
         public string? JobTitle { get; set; } 
         public string? Company { get; set; }
         public string? Responsibilities { get; set; }
-        public DateTime FromDate { get; set; } 
-        public DateTime ToDate { get; set; } 
+        public DateOnly FromDate { get; set; } 
+        public DateOnly ToDate { get; set; } 
     }
 }

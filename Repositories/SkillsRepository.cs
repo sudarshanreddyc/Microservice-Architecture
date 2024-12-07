@@ -33,11 +33,15 @@ namespace Portfolio.Repositories
                 new Skills { Id = 17, Skill = "Git", Proficiency = null, Category = "Developer Tools" },
                 new Skills { Id = 18, Skill = "VS Code", Proficiency = null, Category = "Developer Tools" },
                 new Skills { Id = 19, Skill = "Visual Studio", Proficiency = null, Category = "Developer Tools" },
-                new Skills { Id = 20, Skill = "Data structures and Algorithms", Proficiency = null, Category = "Other Skills" },
-                new Skills { Id = 21, Skill = "Elastic search", Proficiency = null, Category = "Other Skills" },
-                new Skills { Id = 22, Skill = "Web API", Proficiency = null, Category = "Other Skills" },
-                new Skills { Id = 23, Skill = "Agile methodologies", Proficiency = null, Category = "Other Skills" },
-                new Skills { Id = 24, Skill = "Problem solving skills", Proficiency = null, Category = "Other Skills" }
+                new Skills { Id = 20, Skill = "Microsoft Azure", Proficiency = null, Category = "Cloud/Devops" },
+                new Skills { Id = 21, Skill = "CI/CD", Proficiency = null, Category = "Cloud/Devops" },
+                new Skills { Id = 22, Skill = "Cloudflare", Proficiency = null, Category = "Cloud/Devops" },
+                new Skills { Id = 23, Skill = "Docker", Proficiency = null, Category = "Cloud/Devops" },
+                new Skills { Id = 24, Skill = "Data structures and Algorithms", Proficiency = null, Category = "Other Skills" },
+                new Skills { Id = 25, Skill = "Elastic search", Proficiency = null, Category = "Other Skills" },
+                new Skills { Id = 26, Skill = "Web API", Proficiency = null, Category = "Other Skills" },
+                new Skills { Id = 27, Skill = "Agile methodologies", Proficiency = null, Category = "Other Skills" },
+                new Skills { Id = 28, Skill = "Problem solving skills", Proficiency = null, Category = "Other Skills" }
             };
             return skillsList;
 
